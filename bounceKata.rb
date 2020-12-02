@@ -1,6 +1,13 @@
+def sum(numbers)
+  if numbers.empty?
+    return numbers
+  else
+    sum = 0
+    array.each { |a| sum += a }
+  end
+end
 
-
-
+sum([1, 2])
 
 # def remove_char(s)
 # puts s.shift
